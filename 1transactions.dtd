@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT UserId (#PCDATA)>
+<!ELEMENT Transactions ((Transaction+))>
+<!ELEMENT Transaction ((PaymentId, UserId, EventId, IsCompleted))>
+<!ELEMENT EventId (#PCDATA)>
+<!ELEMENT PaymentId (#PCDATA)>
+<!ELEMENT IsCompleted (#PCDATA)>

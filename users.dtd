@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Users ((User+))>
+<!ELEMENT Username (#PCDATA)>
+<!ELEMENT User ((Username, Password, Email, Address, City, State, Zip))>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (#PCDATA)>

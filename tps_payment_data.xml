@@ -1,0 +1,15 @@
+<Payments xsi:noNamespaceSchemaLocation="payments.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<Payment>
+  <UserId>2</UserId>
+  <Type>Visa</Type>
+  <Address>1971 Neil Ave</Address>
+  <City>Columbus</City>
+  <State>OH</State>
+  <Zip>43210</Zip>
+  <CardNumber>7364837445408241</CardNumber>
+  <FullName>Mike Zazon</FullName>
+  <Expiration>12-14</Expiration>
+  <Cvv2>345</Cvv2>
+  <PhoneNumber>6144418741</PhoneNumber>
+</Payment>
+</Payments>

@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="Events">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Event" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Date" type="xs:date" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="VenueID" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="Category" type="xs:string" />
+							<xs:element name="Cost" type="xs:integer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

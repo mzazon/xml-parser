@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT UserId (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT Payments ((Payment+))>
+<!ELEMENT Payment ((UserId, Type, Address, City, State, Zip, CardNumber, FullName, Expiration, Cvv2, PhoneNumber))>
+<!ELEMENT FullName (#PCDATA)>
+<!ELEMENT Expiration (#PCDATA)>
+<!ELEMENT Cvv2 (#PCDATA)>
+<!ELEMENT CardNumber (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (#PCDATA)>

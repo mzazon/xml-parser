@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Events xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events.xsd">
+	<Event>
+		<Date>2012-06-11</Date>
+		<Name>Peter Frampton Live</Name>
+		<VenueID>1</VenueID>
+		<Description>The legendary Peter Frampton will play all of your
+			favorite hits for you.</Description>
+		<Category>Music</Category>
+		<Cost>50</Cost>
+	</Event>
+	<Event>
+		<Date>2012-05-30</Date>
+		<Name>OSU Mens Ice Hockey vs. Michigan</Name>
+		<VenueID>2</VenueID>
+		<Description>Come watch the OSU Mens Ice Hockey team take on the
+			University of Michigan Wolverines at the Schottenstein Center!
+		</Description>
+		<Category>Sports</Category>
+		<Cost>20</Cost>
+	</Event>
+	<Event>
+		<Date>2012-06-12</Date>
+		<Name>Comedian Louis CK</Name>
+		<VenueID>3</VenueID>
+		<Description>Free Event! Louis CK will be performing his comedy on the
+			OSU South Oval!</Description>
+		<Category>Comedy</Category>
+		<Cost>0</Cost>
+	</Event>
+	<Event>
+		<Date>2012-08-05</Date>
+		<Name>OSU Mens Soccer vs Bowling Green University</Name>
+		<VenueID>1</VenueID>
+		<Description>OSU Mens Soccer takes on Bowling Green University
+		</Description>
+		<Category>Sports</Category>
+		<Cost>10</Cost>
+	</Event>
+</Events>

@@ -1,0 +1,21 @@
+<!DOCTYPE Users SYSTEM "1users.dtd">
+<Users>
+    <User>
+        <Username>username1</Username>
+        <Password>password1</Password>
+        <Email>x@x.com</Email>
+        <Address>123 Street Rd.</Address>
+        <City>Townsville</City>
+        <State>OH</State>
+        <Zip>12345</Zip>
+    </User>
+    <User>
+        <Username>username2</Username>
+        <Password>password2</Password>
+        <Email>y@y.com</Email>
+        <Address>666 Road Dr</Address>
+        <City>Nowhere</City>
+        <State>WV</State>
+        <Zip>54321-4323</Zip>
+    </User>
+</Users>

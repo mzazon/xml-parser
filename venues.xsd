@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="Venues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Venue" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="State" type="xs:string" />
+							<xs:element name="Zip" type="xs:string" />
+							<xs:element name="Size" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

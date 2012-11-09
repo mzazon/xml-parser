@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Events">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Event" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Date" type="xs:date" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="VenueID" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="Category" type="xs:string" />
+							<xs:element name="Cost" type="xs:integer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Users">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="User" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Username" type="xs:string" />
+							<xs:element name="Password" type="xs:string" />
+							<xs:element name="Email" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="State" type="xs:string" />
+							<xs:element name="Zip" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Payments">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Payment" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserId" type="xs:string" />
+							<xs:element name="Type" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="State" type="xs:string" />
+							<xs:element name="Zip" type="xs:string" />
+							<xs:element name="CardNumber" type="xs:string" />
+							<xs:element name="FullName" type="xs:string" />
+							<xs:element name="Expiration" type="xs:string" />
+							<xs:element name="Cvv2" type="xs:string" />
+							<xs:element name="PhoneNumber" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Tickets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Ticket" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TicketId" type="xs:string" />
+							<xs:element name="EventId" type="xs:string" />
+							<xs:element name="SoldFlag" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Transactions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Transaction" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PaymentId" type="xs:string" />
+							<xs:element name="UserId" type="xs:string" />
+							<xs:element name="EventId" type="xs:string" />
+							<xs:element name="IsCompleted" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Venues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Venue" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="State" type="xs:string" />
+							<xs:element name="Zip" type="xs:string" />
+							<xs:element name="Size" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

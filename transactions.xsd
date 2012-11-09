@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="Transactions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Transaction" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PaymentId" type="xs:string" />
+							<xs:element name="UserId" type="xs:string" />
+							<xs:element name="EventId" type="xs:string" />
+							<xs:element name="IsCompleted" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

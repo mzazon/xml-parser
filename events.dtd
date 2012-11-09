@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT VenueID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Events ((Event+))>
+<!ELEMENT Event ((Date, Name, VenueID, Description, Category, Cost))>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Cost (#PCDATA)>
+<!ELEMENT Category (#PCDATA)>

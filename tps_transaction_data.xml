@@ -1,0 +1,14 @@
+<Transactions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="transactions.xsd">
+    <Transaction>
+        <PaymentId>1</PaymentId>
+        <UserId>1</UserId>
+        <EventId>1</EventId>
+        <IsCompleted>0</IsCompleted>
+    </Transaction>
+    <Transaction>
+        <PaymentId>1</PaymentId>
+        <UserId>2</UserId>
+        <EventId>1</EventId>
+        <IsCompleted>1</IsCompleted>
+    </Transaction>
+</Transactions>

@@ -1,0 +1,30 @@
+<!DOCTYPE Venues SYSTEM "1venues.dtd">
+<Venues>
+	<Venue>
+  		<Name>Jerome Schottenstein Center</Name>
+  		<Description>The Value City Schottenstein Center is a multi purpose arena home to the OSU hockey, basketball, volleyball, and badmitton teams.</Description>
+  		<Address>555 Borror Drive</Address>
+  		<City>Columbus</City>
+  		<State>OH</State>
+  		<Zip>43201</Zip>
+  		<Size>5</Size>
+	</Venue>
+	<Venue>
+  		<Name>South Oval</Name>
+  		<Description>The South Oval is an outdoor, open to public greenspace (grass) located just north of the south campus dorms.</Description>
+  		<Address></Address>
+  		<City></City>
+  		<State></State>
+  		<Zip></Zip>
+  		<Size>6</Size>
+	</Venue>
+	<Venue>
+  		<Name>OSU Stadium</Name>
+  		<Description>Known as the SHOE!</Description>
+  		<Address>411 Woody Hayes Drive</Address>
+  		<City>Columbus</City>
+  		<State>Ohio</State>
+  		<Zip>43210</Zip>
+  		<Size>7</Size>
+	</Venue>
+</Venues>

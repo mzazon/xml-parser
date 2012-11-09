@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Venues ((Venue+))>
+<!ELEMENT Venue ((Name, Description, Address, City, State, Zip, Size))>
+<!ELEMENT Size (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (#PCDATA)>

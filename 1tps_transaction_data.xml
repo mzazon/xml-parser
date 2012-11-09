@@ -1,0 +1,15 @@
+<!DOCTYPE Transactions SYSTEM "1transactions.dtd">
+<Transactions>
+    <Transaction>
+        <PaymentId>1</PaymentId>
+        <UserId>1</UserId>
+        <EventId>1</EventId>
+        <IsCompleted>0</IsCompleted>
+    </Transaction>
+    <Transaction>
+        <PaymentId>2</PaymentId>
+        <UserId>2</UserId>
+        <EventId>2</EventId>
+        <IsCompleted>1</IsCompleted>
+    </Transaction>
+</Transactions>

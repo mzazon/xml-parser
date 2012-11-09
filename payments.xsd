@@ -1,0 +1,26 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="Payments">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Payment" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserId" type="xs:string" />
+							<xs:element name="Type" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="State" type="xs:string" />
+							<xs:element name="Zip" type="xs:string" />
+							<xs:element name="CardNumber" type="xs:string" />
+							<xs:element name="FullName" type="xs:string" />
+							<xs:element name="Expiration" type="xs:string" />
+							<xs:element name="Cvv2" type="xs:string" />
+							<xs:element name="PhoneNumber" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

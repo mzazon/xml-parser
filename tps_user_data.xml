@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="user.xsd">
+    <User>
+        <Username>username1</Username>
+        <Password>password1</Password>
+        <Email>x@x.com</Email>
+        <Address>123 Street Rd.</Address>
+        <City>Townsville</City>
+        <State>OH</State>
+        <Zip>12345</Zip>
+    </User>
+    <User>
+        <Username>username2</Username>
+        <Password>password2</Password>
+        <Email>y@y.com</Email>
+        <Address>666 Road Dr</Address>
+        <City>Nowhere</City>
+        <State>WV</State>
+        <Zip>54321-4323</Zip>
+    </User>
+</Users>
